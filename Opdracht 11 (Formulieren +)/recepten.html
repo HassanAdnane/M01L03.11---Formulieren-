@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- Pagina linken met css en titel van de pagine -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Recepten site</title>
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1 class="titel-indeling">Hou jij ook zo van koken?</h1>
+
+    <!-- Navigatie bar -->
+    <nav>
+      <ul class="list-nav">
+        <li class="nav-indeling a"><a href="index.html">Home</a></li>
+        <li class="nav-indeling a"><a href="about.html">About</a></li>
+        <li class="nav-indeling a"><a href="contact.html">Contact</a></li>
+        <li class="nav-indeling a"><a href="recepten.html">Recepten</a></li>
+        <li class="nav-indeling a"><a href="https://www.google.nl/">Google</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <main>
+
+    <h2 class="ondertitel-indeling">Vul dan nu de vragen lijst in!</h2>
+
+
+    <!-- Formulier -->
+    <form name="recepten" method="POST" data-netlify="true" class="label-indeling2">
+
+      <p>
+        <label>Voornaam: <input type="text" name="voornaam" placeholder="Voornaam" class="input-indeling-v" />
+        </label>
+      </p>
+      <p>
+        <label>Achternaam: <input type="text" name="achternaam" placeholder="Achternaam" class="input-indeling-a" />
+        </label>
+      </p>
+      <p>
+        <label>E-mail: <input type="email" name="email" placeholder="Email@voorbeeld.com" class="input-indeling-e" />
+        </label>
+      </p>
+      <p>
+        <label>Telefoon: <input type="tel" name="telefoon" value="+31 " class="input-indeling-t" />
+        </label>
+      </p>
+      <p>
+        <label>Geboorte datum: <input type="date" name="geboortedatum" />
+        </label>
+      </p>
+      <p>
+        <label>Geslacht:<br>
+          <input type="radio" id="man" name="geslacht" value="man">
+          <label for="man">Man</label><br>
+          <input type="radio" id="vrouw" name="geslacht" value="vrouw">
+          <label for="vrouw">vrouw</label><br>
+          <input type="radio" id="anders" name="geslacht" value="anders">
+          <label for="anders">Anders</label>
+        </label>
+      </p>
+      <p>
+        <label>Favoriete cuisine:<br>
+          <input type="checkbox" id="frans" name="cuisine" value="frans">
+          <label for="frans">Frans</label><br>
+          <input type="checkbox" id="spaans" name="cuisine" value="spaans">
+          <label for="spaans">Spaans</label><br>
+          <input type="checkbox" id="italiaans" name="cuisine" value="italiaans">
+          <label for="italiaans">Italiaans</label><br>
+          <input type="checkbox" id="arabisch" name="cuisine" value="arabisch">
+          <label for="arabisch">Arabisch</label><br>
+        </label>
+      </p>
+      <p>
+        <label>Favoriete kleur: <input type="color" name="favoriete kleur" /></label>
+      </p>
+      <p>
+        <label>Biografie: </label><br>
+        <textarea rows="10" cols="50" name="biografie" placeholder="Type hier je biografie..."></textarea>
+      </p>
+      <p>
+        <label>Upload hier je recept: </label><br>
+        <input type="file" name="bestand" />
+      </p>
+      <p>
+        <label>Url naar je lekkerste recept: </label><br>
+        <input type="url" name="url" />
+      </p>
+      <p>
+        <button type="reset" class="knop-rechts">Reset</button>
+        <button type="submit" class="knop-rechts">Verstuur</button>
+      </p>
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+  </main>
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>

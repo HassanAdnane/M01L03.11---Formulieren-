@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Pagina linken met css en titel van de pagine -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Contact pagina</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1 class="titel-indeling">Welkom op de 'contact' page</h1>
+
+        <!-- Navigatie bar -->
+        <nav>
+            <ul class="list-nav">
+                <li class="nav-indeling a"><a href="index.html">Home</a></li>
+                <li class="nav-indeling a"><a href="about.html">About</a></li>
+                <li class="nav-indeling a"><a href="contact.html">Contact</a></li>
+                <li class="nav-indeling a"><a href="recepten.html">Recepten</a></li>
+                <li class="nav-indeling a"><a href="https://www.google.nl/">Google</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+
+        <!-- Input Naam, Mail, Vraag en Submit-->
+        <form name="contact" method="POST" data-netlify="true" class="label-indeling1">
+            <p>
+                <label>Naam: <br> <input type="text" name="name"/></label>
+            </p>
+            <p>
+                <label>Email: <br> <input type="email" naam="email"/></label>
+            </p>
+            <textarea rows="10" cols="50" name="vraag">Type hier je vraag...</textarea>
+            <p>
+                <button type="submit">Verstuur</button>
+            </p>
+        </form>
+
+
+    </main>
+    <footer>
+
+        <!-- Verdeel lijn en link naar 'about' -->
+        <hr class="lijn-indeling">
+
+    </footer>
+
+</body>
+
+</html>
